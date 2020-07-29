@@ -17,7 +17,6 @@ int main (void)
 {
     int min;
     int max;
-    int i;
     int result;
 
     min = 1;
