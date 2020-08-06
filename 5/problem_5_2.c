@@ -16,12 +16,12 @@ int main(void)
     do {
         printf("%d番目の数値を入力してください\n", i+1);
         scanf("%d", &n);
-        count[n - 1] += 1;
+        count[n] += 1;
         i++;
     } while (i < length);
 
-    for (j=0; j<9; j++) {
-        printf("%d : %d回\n", j+1, count[j]);
+    for (j=0; j<=9; j++) {
+        printf("%d : %d回\n", j, count[j]);
     }
 
     return 0;
